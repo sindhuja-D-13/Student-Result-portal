@@ -1,0 +1,47 @@
+/* Pink background for the whole page */
+body{
+background-color: pink;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+
+/* Container box */
+.container{
+background: pink;
+padding: 30px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 0 10px gray;
+}
+
+/* Input box */
+input{
+padding:10px;
+margin:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* Button */
+button{
+padding:10px 20px;
+background:#ff4da6;
+color:pink;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e60073;
+}
+
+/* Result area */
+#result{
+margin-top:20px;
+font-size:18px;
+}
